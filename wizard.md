@@ -3,8 +3,9 @@ wizard: 0.2
 id: hermes-agent
 name: Hermes Agent
 type: agent
-version: 2026.9.24
-summary: The self-improving AI agent by Nous Research.
+category: agent
+version: 2026.9.24-wizard1
+summary: The AI agent itself (Nous Research), with Claude subscription support built in.
 license: MIT
 source: https://github.com/oscarhenrycollins/hermes-agent
 runtime:
@@ -26,4 +27,4 @@ provides:
 
 # Hermes Agent
 
-The self-improving AI agent by Nous Research.
+The AI agent itself (Nous Research), with Claude subscription support built in.
