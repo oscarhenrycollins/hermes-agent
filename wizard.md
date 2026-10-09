@@ -6,7 +6,7 @@ type: agent
 version: 2026.9.24
 summary: The self-improving AI agent by Nous Research.
 license: MIT
-source: https://github.com/minhyeong112/hermes-agent
+source: https://github.com/mistermizel/hermes-agent
 runtime:
   kind: runtipi
   config: runtipi/config.json
