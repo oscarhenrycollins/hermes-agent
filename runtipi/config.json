@@ -10,7 +10,7 @@
     "ai"
   ],
   "description": "Vanilla Hermes Agent with its official dashboard and persistent data.",
-  "tipi_version": 3,
+  "tipi_version": 4,
   "version": "v2026.9.24",
   "source": "https://github.com/NousResearch/hermes-agent",
   "website": "https://hermes-agent.nousresearch.com",
@@ -20,7 +20,7 @@
     "arm64"
   ],
   "created_at": 1791168277431,
-  "updated_at": 1791168277431,
+  "updated_at": 1791563214955,
   "dynamic_config": true,
   "min_tipi_version": "4.8.0",
   "uid": 1000,
@@ -46,6 +46,13 @@
       "label": "Dashboard session signing secret",
       "env_variable": "HERMES_DASHBOARD_BASIC_AUTH_SECRET",
       "min": 64
+    },
+    {
+      "type": "random",
+      "label": "API and MCP key",
+      "env_variable": "HERMES_API_KEY",
+      "min": 32,
+      "hint": "Bearer token for this Hermes's OpenAI-compatible API and its /mcp endpoint."
     }
   ]
 }
