@@ -280,6 +280,9 @@ services:
       API_SERVER_KEY: ${HERMES_API_KEY}
       API_SERVER_HOST: 0.0.0.0
       API_SERVER_PORT: '8642'
+    x-runtipi:
+      # Other apps (frontends) reach the API at http://hermes-agent-engine:8642 and the dashboard at :9119.
+      add_to_main_network: true
 volumes:
   claude-login:
     name: wizard-ai-accounts-claude
