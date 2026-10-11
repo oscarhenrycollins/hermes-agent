@@ -19,7 +19,7 @@ COPY --from=addons --chmod=0644 /out/claude-subscription-directsdk-experimental/
 # the official Claude Code binary.
 RUN mkdir -p /claude && chown 1000:1000 /claude && chmod 0700 /claude \
  && chmod 0755 /opt/hermes/plugins/model-providers/claude-subscription-directsdk-experimental
-ENV CLAUDE_CODE_VERSION=2.1.263 \
+ENV CLAUDE_CODE_VERSION=2.1.296 \
     DISABLE_AUTOUPDATER=1 \
     CLAUDE_SUBSCRIPTION_DIRECTSDK_COMMAND=/usr/local/bin/claude \
     CLAUDE_SUBSCRIPTION_DIRECTSDK_CONFIG_DIR=/claude

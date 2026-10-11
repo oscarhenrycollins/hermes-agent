@@ -12,10 +12,10 @@ import sys
 import tarfile
 import urllib.request
 
-VERSION = "2.1.263"
+VERSION = "2.1.296"
 PACKAGES = {
-    "amd64": ("linux-x64", "0IrvpLd/0FP0acQw59T4Cvx/r4nwAXKBrW0WyhIXymzYWurPCLztB+Icu9MkeewAUI+p3PTXsSfmilv/n6XlAQ=="),
-    "arm64": ("linux-arm64", "RlJtLbl8xqFMf2zUdOKD4o5FkNhcgGjlS3Un8PNfSbv1fLQg3SqBQgEJhNEtSeKlEsOs26RnCG/jVk4yah8Udw=="),
+    "amd64": ("linux-x64", "+m01urgelnI+VJxPaKPEK0wixgq42uZ8PeCaUk5tX/8YoDBvSmC/REVQG2jQfJAr8dxunpjJ600FvLrcj1WWTw=="),
+    "arm64": ("linux-arm64", "Q6Qh6qFmwuBG9rQFiDR6bY3XkFnwTN9AAPrnnDgBvr9sbg1Ql5wrf0lfoCDiV369EUHOzxI4i5OdHW9Vf2/oeA=="),
 }
 
 

@@ -2,9 +2,9 @@
 
 The self-improving AI agent by [Nous Research](https://github.com/NousResearch/hermes-agent), packaged for Runtipi with its native dashboard.
 
-**Wizard build (v2026.9.24-wizard1).** The official `nousresearch/hermes-agent:v2026.9.24` image, pinned by digest, with two official add-ons and nothing else changed:
+**Wizard build (v2026.9.24-wizard2).** The official `nousresearch/hermes-agent:v2026.9.24` image, pinned by digest, with two official add-ons and nothing else changed:
 
-- **Claude Code 2.1.263**, Anthropic's official CLI (integrity-checked, auto-update off).
+- **Claude Code 2.1.296**, Anthropic's official CLI (integrity-checked, auto-update off).
 - **Claude Subscription DirectSDK (Experimental)**, NousResearch's official provider plugin (MIT, pinned commit `ef73726`), built into Hermes' provider folder.
 
 Together they let Hermes use the Claude subscription you connect in the **AI Accounts** app. Your current model and provider stay exactly as they are until you choose Claude yourself.

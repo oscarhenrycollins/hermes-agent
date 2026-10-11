@@ -10,8 +10,8 @@
     "ai"
   ],
   "description": "Vanilla Hermes Agent with its official dashboard and persistent data.",
-  "tipi_version": 5,
-  "version": "v2026.9.24-wizard1",
+  "tipi_version": 6,
+  "version": "v2026.9.24-wizard2",
   "source": "https://github.com/NousResearch/hermes-agent",
   "website": "https://hermes-agent.nousresearch.com",
   "exposable": false,
