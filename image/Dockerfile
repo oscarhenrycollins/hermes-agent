@@ -24,5 +24,5 @@ ENV CLAUDE_CODE_VERSION=2.1.296 \
     CLAUDE_SUBSCRIPTION_DIRECTSDK_COMMAND=/usr/local/bin/claude \
     CLAUDE_SUBSCRIPTION_DIRECTSDK_CONFIG_DIR=/claude
 LABEL org.opencontainers.image.source="https://github.com/humanitylabs-org/wizard-app-store" \
-      org.opencontainers.image.description="Official Hermes Agent v2026.9.24 plus pinned Claude Code and the official Claude Subscription DirectSDK plugin" \
+      org.opencontainers.image.description="Official Hermes Agent v2026.9.24 plus pinned Claude Code and the official Claude Subscription DirectSDK plugin 0.4.1" \
       org.opencontainers.image.base.name="docker.io/nousresearch/hermes-agent:v2026.9.24"
